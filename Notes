@@ -1,0 +1,13 @@
+MODELS
+    users
+        host
+        guest
+    
+    listings
+        host_id
+    
+    reservation (review)
+        guest_id
+    
+    
+Time.now.strftime("%Y-%m-%d")
